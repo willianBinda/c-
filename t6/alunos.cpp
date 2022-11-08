@@ -54,12 +54,10 @@ void percoreFila(aluno *raiz,int matricula){
     if(raiz){
         do
         {
-            if(raiz->matricula==matricula){
+            if(raiz->matricula==123){
                 cout<<"-----iguai---\n";
-                removeNoMeio(raiz, i);
+                // removeNoMeio(raiz, i);
                 break;
-            }else{
-                
             }
             i++;
             raiz=raiz->proximo;
